@@ -4,7 +4,13 @@ return {
     opts = {
       picker = {
         sources = {
-          explorer = {},
+          explorer = {
+            layout = {
+              preset = "sidebar",
+              preview = false,
+              layout = { width = 40 },
+            },
+          },
           files = {},
         },
       },

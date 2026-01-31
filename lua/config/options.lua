@@ -3,3 +3,6 @@
 -- Add any additional options here
 vim.o.smoothscroll = true
 vim.o.swapfile = false
+vim.o.winbar = "%f"
+vim.o.wrap = true
+vim.o.linebreak = true
